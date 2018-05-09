@@ -8,7 +8,7 @@ Use the package to plot nice prototype plots. In some case, you might have to in
 More plots will be added once I'll need them.
 
 #### Current plots
-- PhasorDiagram[*scaling factor*,*angle (deg)*]: a simple phasor diagram of two vectors, with the second one rotated and scaled.
+- PhasorDiagram[*scaling factor*,*angle*]: a simple phasor diagram of two vectors, with the second one rotated and scaled.
 
 ### Installing
 In order to use the package, you need a working copy of Wolfram Mathematica.
