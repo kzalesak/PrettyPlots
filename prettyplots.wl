@@ -11,7 +11,8 @@ BeginPackage["PrettyPlots`"]
  PhasorDiagram::usage=
  "PhasorDiagram[inverse scaling factor, argument]
 Plot a phasor diagram of voltage and current.
-Scale current by the scaling factor and rotate it by the argument"
+Scale current by the scaling factor and rotate it by the argument.
+To use degrees, write the ° symbol after the argument."
  PhasorDiagram[sf_,argz_]:=Module[{plotBasis,currentPhasor,voltagePhasor, curr, osf},
  osf=1.32;
 plotBasis = PolarPlot[1,{curr,0,1},
